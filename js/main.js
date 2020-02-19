@@ -70,7 +70,7 @@ let shaikingBox7 =
 
 let box8 = anime({
   targets: '.box8',
-  translateY: -2500,
+  translateY: -2000,
   easing: 'linear',
   loop: true,
   duration: 5000,
