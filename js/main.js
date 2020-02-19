@@ -70,10 +70,10 @@ let shaikingBox7 =
 
 let box8 = anime({
   targets: '.box8',
-  translateY: -1000,
+  translateY: -2500,
   easing: 'linear',
   loop: true,
-  duration: 3000,
+  duration: 5000,
 });
 let goBox8 =
   document.querySelector('.box8')
