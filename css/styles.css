@@ -1,0 +1,97 @@
+@import "reset.css";
+@font-face {
+  font-family: Pixel; /* Гарнитура шрифта */
+  src: url(../fonts/18676.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+  background-color: black;
+  font-family: Pixel, 'Pixel';
+  width: 100vw;
+  height: 100vh;
+}
+main{
+  display: flex;
+
+}
+.box1{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #FFFFFF;
+}
+.box2{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #EBFF00;
+}
+.box3{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #00FFF0;
+}
+.box4{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #00FF19;
+}
+.box5{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #BD00FF;
+}
+.box6{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #FF0000;
+}
+.box7{
+  position: relative;
+  z-index: 3;
+  width: 12.5vw;
+  height: 100vh;
+  background: #0500FF;
+}
+
+.box8{
+  position: relative;
+  z-index: 5;
+  width: 100vw;
+  height: 12.5vw;
+  background: #000000;
+
+
+}
+.box8 h1{
+  font-family: Pixel;
+  font-size: 76px;
+  line-height: 94px;
+  text-align: center;
+
+
+}
+.glitch1{
+  margin-top: -94px;
+  color: #FFFFFF;
+}
+.glitch2{
+  margin-top: -94px;
+  color: #FF0000;
+}
+.glitch3{
+  margin-top: -94px;
+  color: #0500FF;
+}
+.glitch4{
+  color: #EBFF00;
+}
