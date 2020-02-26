@@ -1,0 +1,15 @@
+@import "reset.css";
+body{
+
+  display: inline-flex;
+}
+#box{
+  margin-top: 200vh;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+#img{
+  width: 220vw;
+  height: 220vh;
+}
