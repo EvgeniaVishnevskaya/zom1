@@ -3,10 +3,8 @@ let bigger = new ScrollMagic.Controller()
 let $img = document.getElementById('img')
 let $box = document.getElementById('box')
 let $imgAnim = anime({
-  targets: $img,
-  autoplay: false,
-  duration: 5000,
-  translateX: '-15vw',
+
+  loop: true,
   zoom: 1.5,
   easing: 'easeInOutQuad'
 })
