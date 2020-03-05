@@ -1,15 +1,29 @@
 @import "reset.css";
 body{
+  background-color: #000000;
+  margin: 0;
+}
+div{
+  transition: 400ms all ease;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #FFF735;
 
-  display: inline-flex;
 }
-#box{
-  margin-top: 200vh;
-  left: 0;
-  width: 1px;
-  height: 1px;
+nav{
+  transition: 400ms all ease;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #0500FF;
+
 }
-#img{
-  width: 300vw;
-  height: 300vh;
+main{
+  transition: 400ms all ease;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #FF0000;
+
 }
