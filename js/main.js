@@ -1,60 +1,78 @@
-let divsNumber = 5
+let glitch1 = anime({
+  targets: '.yellow',
+  keyframes: [
+    {translateY: 10},
+    {translateX: -10},
+    {translateY: 10},
+    {translateX: 0},
+    {translateY: 0}
+  ],
+  duration: 3000,
+  easing: 'linear',
+  loop: true
+});
+let goGlitch1 =
+  document.querySelector('.yellow')
 
-for (let i = 0; i < divsNumber; i+=1) {
-   let red = document.createElement('main')
-   red.style.cssText =`
-    transform:
-    translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)
-    rotate(${anime.random(0,360)}deg);
-    border-radius: ${anime.random(0,360)}px;
+let glitch2 = anime({
+  targets: '.blue',
+  keyframes: [
+    {translateY: -10},
+    {translateX: 10},
+    {translateY: 10},
+    {translateX: 10},
+    {translateY: 10}
+  ],
+  duration: 1000,
+  easing: 'linear',
+  loop: true
+});
+let goGlitch2 =
+  document.querySelector('.blue')
 
-    width: ${anime.random(0,500)}px;
-    height: ${anime.random(0,500)}px;`
-  red.onmouseenter = function (event) {
-    event.target.style.transform = `translate(${anime.random(0,90)}vw,${anime.random(0,90)}vh)
-     rotate(${anime.random(0,360)}deg)`
-    event.target.style.borderRadius = `${anime.random(0,360)}px`
-    event.target.style.width = `${anime.random(0,500)}px`
-    event.target.style.height = `${anime.random(0,500)}px`
-  }
-  document.body.append(red)
-}
 
-for (let i = 0; i < divsNumber; i+=1) {
-   let blue = document.createElement('nav')
-   blue.style.cssText =`
-    transform:
-    translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)
-    rotate(${anime.random(0,360)}deg);
-    border-radius: ${anime.random(0,360)}px;
+let glitch3 = anime({
+  targets: '.red',
+  keyframes: [
+    {translateY: 5},
+    {translateX: -5},
+    {translateY: -5},
+    {translateX: 0},
+    {translateY: 0}
+  ],
+  duration: 1000,
+  easing: 'linear',
+  loop: true
+});
+let goGlitch3 =
+  document.querySelector('.red')
 
-    width: ${anime.random(0,500)}px;
-    height: ${anime.random(0,500)}px;`
-  blue.onmouseenter = function (event) {
-    event.target.style.transform = `translate(${anime.random(0,90)}vw,${anime.random(0,90)}vh)
-     rotate(${anime.random(0,360)}deg)`
-    event.target.style.borderRadius = `${anime.random(0,360)}px`
-    event.target.style.width = `${anime.random(0,500)}px`
-    event.target.style.height = `${anime.random(0,500)}px`
-  }
-  document.body.append(blue)
-}
-for (let i = 0; i < divsNumber; i+=1) {
-   let yellow = document.createElement('div')
-   yellow.style.cssText =`
-    transform:
-    translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)
-    rotate(${anime.random(0,360)}deg);
-    border-radius: ${anime.random(0,360)}px;
+let glitch4 = anime({
+  targets: '.white',
+  keyframes: [
+    {translateY: 0},
+    {translateX: -10},
+    {translateY: 10},
+    {translateX: 10},
+    {translateY: 0}
+  ],
+  duration: 3000,
+  easing: 'linear',
+  loop: true
+});
+let goGlitch4 =
+  document.querySelector('.white')
 
-    width: ${anime.random(0,500)}px;
-    height: ${anime.random(0,500)}px;`
-  yellow.onmouseenter = function (event) {
-    event.target.style.transform = `translate(${anime.random(0,90)}vw,${anime.random(0,90)}vh)
-     rotate(${anime.random(0,360)}deg)`
-    event.target.style.borderRadius = `${anime.random(0,360)}px`
-    event.target.style.width = `${anime.random(0,500)}px`
-    event.target.style.height = `${anime.random(0,500)}px`
-  }
-  document.body.append(yellow)
-}
+
+
+let bg = document.getElementById('dontthink')
+
+document.getElementById('dontthink').addEventListener("mouseover", function(){
+  console.log(123);
+  bg.event.target.style.cssText =
+  `opacity: 1;`
+  this.addEventListener("mouseout", function(){
+    bg.event.target.style.cssText =
+  `opacity: 0;`;
+  });
+});

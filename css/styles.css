@@ -1,29 +1,96 @@
 @import "reset.css";
+@font-face {
+  font-family: Grotesk;
+  src: url(../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-Bold.ttf);
+}
 body{
   background-color: #000000;
-  margin: 0;
 }
-div{
-  transition: 400ms all ease;
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  background-color: #FFF735;
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -100vh;
+}
+.zomb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 18vh;
+}
+.yellow{
+  position: relative;
+  z-index: 1;
+  font-family: Grotesk;
+  font-size: 200px;
+  line-height: 94px;
+  text-align: center;
+  color: rgba(255, 247, 53, 0.76);
+}
+.blue{
+  position: relative;
+  z-index: 1;
+  font-family: Grotesk;
+  font-size: 200px;
+  line-height: 94px;
+  text-align: center;
+  color: rgba(5, 0, 255, 0.72);
+  margin-top: -94px;
+}
+.red{
+  position: relative;
+  z-index: 1;
+  font-family: Grotesk;
+  font-size: 200px;
+  line-height: 94px;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.83);
+  margin-top: -90px;
+}
+.white{
+  position: relative;
+  z-index: 1;
+  font-family: Grotesk;
+  font-size: 200px;
+  line-height: 94px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-top: -94px;
+}
+img{
 
 }
-nav{
-  transition: 400ms all ease;
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  background-color: #0500FF;
+.line{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
 
 }
-main{
-  transition: 400ms all ease;
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  background-color: #FF0000;
+.tv{
+  position: relative;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: -100vh;
+}
+.hov{
+  position: relative;
+  z-index: 4;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: -100vh;
 
+}
+img:hover + img{
+  opacity: 0;
 }
