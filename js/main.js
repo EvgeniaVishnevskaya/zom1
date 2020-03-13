@@ -67,12 +67,35 @@ let goGlitch4 =
 
 let bg = document.getElementById('dontthink')
 
-document.getElementById('dontthink').addEventListener("mouseover", function(){
-  console.log(123);
-  bg.event.target.style.cssText =
+bg.onmouseenter = function (event) {
+
+  event.target.style.cssText =
   `opacity: 1;`
   this.addEventListener("mouseout", function(){
-    bg.event.target.style.cssText =
-  `opacity: 0;`;
-  });
-});
+    event.target.style.cssText =
+  `opacity: 0;`;})
+}
+
+
+let kk = document.getElementById('kek')
+
+kk.onmouseenter = function (event) {
+
+  event.target.style.cssText =
+  `opacity: 1;`
+  this.addEventListener("mouseout", function(){
+    event.target.style.cssText =
+  `opacity: 0;`;})
+}
+
+
+let st = document.getElementById('stairs')
+
+st.onmouseenter = function (event) {
+
+  event.target.style.cssText =
+  `opacity: 1;`
+  this.addEventListener("mouseout", function(){
+    event.target.style.cssText =
+  `opacity: 0;`;})
+}

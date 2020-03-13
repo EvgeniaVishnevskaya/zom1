@@ -1,0 +1,15 @@
+body{
+  background-color: #FFF735;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+img{
+  height: 100vh;
+  position: fixed;
+}
+#se{
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+}
