@@ -1,0 +1,39 @@
+@import "reset.css";
+@font-face {
+  font-family: Pixel; /* Гарнитура шрифта */
+  src: url(../fonts/18676.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+  width: 100vw;
+  height: 100vw;
+}
+.fon{
+  position: fixed;
+
+  z-index: 1;
+}
+.text{
+  position: relative;
+  z-index: 3;
+
+}
+.text p{
+    font-family: Pixel;
+    font-size: 2vw;
+
+}
+.yellow{
+  color: #FFF735;
+}
+.blue{
+  color: #0500FF;
+  margin-top: -20px;
+}
+.red{
+  color: #FF0000;
+  margin-top: -20px;
+}
+.white{
+  color: #FFFFFF;
+  margin-top: -20px;
+}
