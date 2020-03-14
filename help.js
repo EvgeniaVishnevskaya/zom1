@@ -1,0 +1,3 @@
+window.onmousemove = function (event) {
+
+}

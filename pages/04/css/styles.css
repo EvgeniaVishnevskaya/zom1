@@ -6,20 +6,58 @@
 body{
   width: 100vw;
   height: 100vw;
+
+
 }
 .fon{
-  position: fixed;
+  display: flex;
+  justify-content: space-between;
 
+}
+.whiteline{
+  background-color: #0500FF;
+  width: 2vw;
+  height: 100vw;
+
+  position: relative;
   z-index: 1;
+
+}
+.box1{
+  margin-top: 15vh;
+  margin-left: 61vw;
+  position: absolute;
+  opacity: 0;
+}
+.black{
+  background-color: black;
+  width: 360px;
+  height: 348px;
+  margin-right: 1px;
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  flex-direction: column;
+  overflow: hidden;
+
 }
 .text{
   position: relative;
   z-index: 3;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vh;
 
+}
+.text:first-child{
+  margin-top: 1vh;
 }
 .text p{
     font-family: Pixel;
-    font-size: 2vw;
+    font-size: 40px;
 
 }
 .yellow{
@@ -27,13 +65,20 @@ body{
 }
 .blue{
   color: #0500FF;
-  margin-top: -20px;
+  margin-top: -4vh;
 }
 .red{
   color: #FF0000;
-  margin-top: -20px;
+  margin-top: -4vh;
 }
 .white{
   color: #FFFFFF;
-  margin-top: -20px;
+  margin-top: -4vh;
+}
+img{
+  position: fixed;
+  z-index: 4;
+
+  width: 365px;
+ height: 351px;
 }
