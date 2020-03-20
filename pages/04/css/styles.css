@@ -17,7 +17,7 @@ body{
 .whiteline{
   background-color: #0500FF;
   width: 2vw;
-  height: 100vw;
+  height: 300vw;
 
   position: relative;
   z-index: 1;
@@ -26,6 +26,12 @@ body{
 .box1{
   margin-top: 15vh;
   margin-left: 61vw;
+  position: absolute;
+  opacity: 0;
+}
+.box2{
+  margin-top: 50vh;
+  margin-left: 10vw;
   position: absolute;
   opacity: 0;
 }
@@ -49,7 +55,7 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1vh;
+  margin-bottom: 20px;
 
 }
 .text:first-child{
@@ -81,4 +87,49 @@ img{
 
   width: 365px;
  height: 351px;
+}
+
+
+@media  screen and (max-width: 1920px) {
+  .text{
+
+    margin-bottom: 10px;
+
+  }
+}
+
+
+@media  screen and (max-width: 1400px) {
+  .text{
+
+    margin-bottom: 20px;
+
+  }
+}
+
+
+@media  screen and (max-width: 1000px) {
+  .text{
+
+    margin-bottom: 40px;
+
+  }
+}
+
+
+
+@media  screen and (max-width: 600px) {
+  .text{
+
+    margin-bottom: 100px;
+
+  }
+}
+
+@media  screen and (max-width: 400px) {
+  .text{
+
+    margin-bottom: 120px;
+
+  }
 }

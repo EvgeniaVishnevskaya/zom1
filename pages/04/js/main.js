@@ -1,39 +1,39 @@
-let hasBlockMovedDown = false
 let mooveDown = anime({
   targets: '#block',
   translateX: -270,
   translateY: 270,
+
+  direction: 'alternate',
   duration: 3000,
   autoplay: false,
+
   easing: 'easeInOutSine',
-  complete: function() {
-    hasBlockMovedDown = true
-  }
-});
 
-let mooveTop = anime({
-  targets: '#block',
-  translateX: 270,
-  translateY: -270,
+});
+let turgetsBtn01 =
+  document.querySelector('#block')
+turgetsBtn01.onclick = mooveDown.play
+
+
+let mooveDown2 = anime({
+  targets: '#block1',
+  translateX: 300,
+  translateY: -300,
+
+  direction: 'alternate',
   duration: 3000,
   autoplay: false,
-  easing: 'linear',
-  complete: function() {
-    hasBlockMovedDown = false
-  }
+
+  easing: 'easeInOutSine',
 
 });
+let turgetsBtn02 =
+  document.querySelector('#block1')
+turgetsBtn02.onclick = mooveDown2.play
 
-document.querySelector('#block').onclick = function() {
-  if (hasBlockMovedDown) {
-    mooveTop.play();
-  } else {
-    mooveDown.play();
-  }
-}
 
 var turnOn = anime({
-  targets: '.box1',
+  targets: '.box1, .box2',
   opacity: 1,
 
   autoplay: false,
