@@ -99,3 +99,14 @@ st.onmouseenter = function (event) {
     event.target.style.cssText =
   `opacity: 0;`;})
 }
+
+let lil = document.getElementById('lil')
+
+lil.onmouseenter = function (event) {
+
+  event.target.style.cssText =
+  `opacity: 1;`
+  this.addEventListener("mouseout", function(){
+    event.target.style.cssText =
+  `opacity: 0;`;})
+}
