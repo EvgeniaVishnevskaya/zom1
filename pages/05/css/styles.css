@@ -23,6 +23,29 @@ body{
   z-index: 2;
   border-radius: 100%;
 }
+.eyes{
+  display: flex;
+  justify-content: space-around;
+
+}
+.right{
+  margin-left: 100px;
+}
+.right2{
+  margin-left: 100px;
+}
+.right3{
+  margin-left: 100px;
+}
+.right4{
+  margin-left: 100px;
+}
+.right5{
+  margin-left: 100px;
+}
+.right6{
+  margin-left: 100px;
+}
 .circleright{
   width: 58.79px;
   height: 58.93px;
@@ -32,4 +55,18 @@ body{
   position: relative;
   z-index: 2;
   border-radius: 100%;
+}
+@media screen and (max-width: 800px) {
+  .line{
+    flex-direction: column;
+
+
+  }
+  .eyes{
+    display: flex;
+    align-content: space-between;
+  }
+  .eyes:last-child{
+    margin-top: 100px;
+  }
 }

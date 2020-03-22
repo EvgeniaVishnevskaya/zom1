@@ -110,4 +110,6 @@ img:hover + img{
 }
 #eye{
   opacity: 0;
+}@media screen and (max-width: 800px) {
+  
 }
