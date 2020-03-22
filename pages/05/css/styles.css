@@ -1,0 +1,35 @@
+body{
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-content: space-around;
+  height: 100vh;
+  width: 100vw;
+}
+.line{
+  display: flex;
+  justify-content: space-around;
+}
+
+.circleleft{
+  width: 58.79px;
+  height: 58.93px;
+  background-color: #000000;
+  margin-top: -80px;
+  margin-left: 50px;
+  position: relative;
+  z-index: 2;
+  border-radius: 100%;
+}
+.circleright{
+  width: 58.79px;
+  height: 58.93px;
+  background-color: #000000;
+  margin-top: -80px;
+  margin-left: 50px;
+  position: relative;
+  z-index: 2;
+  border-radius: 100%;
+}
