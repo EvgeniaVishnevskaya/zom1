@@ -171,7 +171,7 @@ img:hover + img{
 }
 @media screen and (max-width: 1024px) {
   body{
-    overflow: hidden;
+    
   }
   #dontthink{
     opacity: 1;
@@ -199,7 +199,7 @@ img:hover + img{
   .line:first-child{
     flex-direction: column;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 174vh;
     width: 100vw;
     opacity: 1;
 
@@ -207,6 +207,11 @@ img:hover + img{
   }
   .line{
     opacity: 0;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+
   }
   img{
     margin-top: 5vh;
