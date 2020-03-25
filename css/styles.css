@@ -171,7 +171,7 @@ img:hover + img{
 }
 @media screen and (max-width: 1024px) {
   body{
-    
+    overflow-y: scroll;
   }
   #dontthink{
     opacity: 1;
@@ -216,12 +216,10 @@ img:hover + img{
   img{
     margin-top: 5vh;
   }
-  .line img:last-child{
-    margin-top: -5vh;
-  }
+
   .hov{
     flex-direction: column;
-    margin-top: 78vh;
+    margin-top: 0vh;
     opacity: 1;
   }
   .tv{
@@ -230,27 +228,117 @@ img:hover + img{
   }
   .text{
     position: fixed;
-    margin-top: -175vh;
+    margin-top: 0vh;
     margin-left: 1vw;
   }
   .yellow{
 
-    font-size: 70px;
+    font-size: 130px;
 
   }
   .blue{
 
-    font-size: 70px;
+    font-size: 130px;
 
   }
   .red{
 
-    font-size: 70px;
+    font-size: 130px;
 
   }
   .white{
 
-    font-size: 70px;
+    font-size: 130px;
 
   }
+  .zomb{
+    height: 18vh;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .line:first-child{
+    margin-top: 208vh;
+  }
+  .text{
+
+    margin-left: 0vw;
+  }
+  .yellow{
+
+    font-size: 100px;
+
+  }
+  .blue{
+
+    font-size: 100px;
+
+  }
+  .red{
+
+    font-size: 100px;
+
+  }
+  .white{
+
+    font-size: 100px;
+
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .line:first-child{
+    margin-top: 301vh;
+  }
+  .yellow{
+
+    font-size: 60px;
+
+  }
+  .blue{
+
+    font-size: 60px;
+
+  }
+  .red{
+
+    font-size: 60px;
+
+  }
+  .white{
+
+    font-size: 60px;
+
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .line:first-child{
+    margin-top: 274vh;
+  }
+  .yellow{
+
+    font-size: 50px;
+
+  }
+  .blue{
+
+    font-size: 50px;
+
+  }
+  .red{
+
+    font-size: 50px;
+
+  }
+  .white{
+
+    font-size: 50px;
+
+  }
+
 }
