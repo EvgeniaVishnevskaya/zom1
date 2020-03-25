@@ -74,10 +74,10 @@ body{
 @media screen and (max-width: 450px) {
   .eyes{
 
-    margin-top: -30vh;
+    margin-top: 0vh;
   }
   .eyes:last-child{
-    margin-top: -8vh;
+    margin-top: 0vh;
 
   }
   .line:first-child{
@@ -90,11 +90,11 @@ body{
   .circleleft{
     height: 10vw;
     width: 10vw;
-    margin-top: -153px;
+    margin-top: -20vh;
   }
   .circleright{
     height: 10vw;
     width: 10vw;
-    margin-top: -153px;
+    margin-top: -20vh;
   }
 }
