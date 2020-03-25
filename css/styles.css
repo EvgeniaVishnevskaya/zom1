@@ -115,12 +115,15 @@ img:hover + img{
 #eye{
   opacity: 0;
 }
+
+
 @media screen and (max-width: 1366px) {
   .tv{
 
     margin-left: -3vw;
   }
   .hov{
+
     margin-left: -3vw;
   }
   .text{

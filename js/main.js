@@ -1,5 +1,6 @@
 let glitch1 = anime({
   targets: '.yellow',
+  animationDirection: 'alternate',
   keyframes: [
     {translateY: 10},
     {translateX: -10},
@@ -16,6 +17,7 @@ let goGlitch1 =
 
 let glitch2 = anime({
   targets: '.blue',
+  animationDirection: 'alternate',
   keyframes: [
     {translateY: -10},
     {translateX: 10},
@@ -33,6 +35,7 @@ let goGlitch2 =
 
 let glitch3 = anime({
   targets: '.red',
+  animationDirection: 'alternate',
   keyframes: [
     {translateY: 5},
     {translateX: -5},
@@ -49,6 +52,7 @@ let goGlitch3 =
 
 let glitch4 = anime({
   targets: '.white',
+  animationDirection: 'alternate',
   keyframes: [
     {translateY: 0},
     {translateX: -10},
