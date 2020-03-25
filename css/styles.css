@@ -196,13 +196,17 @@ img:hover + img{
   #kuk{
     margin-top: -2vh;
   }
-  .line{
+  .line:first-child{
     flex-direction: column;
     align-items: center;
     margin-top: -705px;
     width: 100vw;
+    opacity: 1;
 
 
+  }
+  .line{
+    opacity: 0;
   }
   img{
     margin-top: 5vh;
