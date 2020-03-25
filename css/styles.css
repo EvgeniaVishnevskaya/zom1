@@ -75,6 +75,9 @@ body{
   width: 100vw;
 
 }
+.hov:first-child{
+  margin-right: -50vw;
+}
 .tv{
   position: relative;
   z-index: 3;
@@ -116,6 +119,21 @@ img:hover + img{
   opacity: 0;
 
 }
+#eye1{
+  display: none;
+  height: 0;
+  width: 0;
+}
+.mob{
+  opacity: 0;
+  margin-top: -16vh;
+
+}
+#eye2{
+  opacity: 0;
+
+}
+
 
 
 @media screen and (max-width: 1366px) {
@@ -172,6 +190,9 @@ img:hover + img{
     margin-top: 0vh;
 
   }
+  .mob{
+    margin-top: -18vh;
+  }
 }
 @media screen and (max-width: 1024px) {
   body{
@@ -220,11 +241,20 @@ img:hover + img{
   img{
     margin-top: 5vh;
   }
-
-  .hov{
-    flex-direction: column;
-    margin-top: 0vh;
+  .mob{
     opacity: 1;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    margin-top: 137vh;
+
+  }
+  .hov{
+    display: none;
   }
   .tv{
 
@@ -257,12 +287,18 @@ img:hover + img{
   }
   .zomb{
     height: 18vh;
+
   }
 }
 @media screen and (max-width: 768px) {
 
   .line:first-child{
     margin-top: 208vh;
+  }
+  .mob{
+
+    margin-top: 192vh;
+
   }
   .text{
 
@@ -299,6 +335,11 @@ img:hover + img{
   .yellow{
 
     font-size: 60px;
+
+  }
+  .mob{
+
+    margin-top: 250vh;
 
   }
   .blue{
