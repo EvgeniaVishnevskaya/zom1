@@ -70,3 +70,31 @@ body{
     margin-top: 100px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .eyes{
+
+    margin-top: -30vh;
+  }
+  .eyes:last-child{
+    margin-top: -8vh;
+
+  }
+  .line:first-child{
+    margin-top: 10vh;
+  }
+  svg{
+    height: 35vh;
+    width: 35vw;
+  }
+  .circleleft{
+    height: 10vw;
+    width: 10vw;
+    margin-top: -153px;
+  }
+  .circleright{
+    height: 10vw;
+    width: 10vw;
+    margin-top: -153px;
+  }
+}
