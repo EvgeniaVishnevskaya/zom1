@@ -1,0 +1,95 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FF0000;
+}
+.eye{
+  border-radius: 100%;
+  background-color: #000000;
+  width: 366px;
+  height: 366px;
+
+  float: left;
+  position: absolute;
+  left: 773px;
+  top: 357px;
+}
+
+.zrachok{
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  border: 7px solid #000000;
+  width: 100px;
+  height: 100px;
+  bottom: 110px;
+  left: 266px;
+}
+@media screen and (max-width: 1680px) {
+  .eye{
+
+    left: 657px;
+    top: 342px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .eye{
+
+    left: 537px;
+    top: 267px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .eye{
+
+    left: 500px;
+    top: 201px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .eye{
+
+    left: 457px;
+    top: 217px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .eye{
+
+    left: 329px;
+    top: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .eye{
+    width: 300px;
+    height: 300px;
+
+    left: 234px;
+    top: 362px;
+  }
+  .zrachok{
+
+    width: 90px;
+    height: 90px;
+    bottom: 110px;
+    left: 200px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .eye{
+    width: 160px;
+    height: 160px;
+    left: 135px;
+    top: 288px;
+  }
+  .zrachok{
+
+    width: 50px;
+    height: 50px;
+    bottom: 60px;
+    left: 110px;
+  }
+}
