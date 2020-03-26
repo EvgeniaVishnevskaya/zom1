@@ -1,11 +1,21 @@
-let bg = anime({
-  targets: '#stair',
-  rotate: '360deg',
-  direction: 'alternate',
-  loop: true,
-  duration: 10000,
-  scale: (1, 4),
-  easing: 'linear'
-})
-let shaikingBox2 =
-  document.querySelector('#stair')
+
+document.onmousemove = function (event) {
+  let x = event.x;
+  let box1 = anime({
+    targets: '#left',
+    translateX: -x,
+    easing: 'linear'
+  })
+  let box2 = anime({
+    targets: '#right',
+    translateX: x,
+    easing: 'linear'
+  })
+  let shaikingBox2 =
+    document.querySelector('#right')
+
+
+  let shaikingBox1 =
+    document.querySelector('#left')
+
+}
