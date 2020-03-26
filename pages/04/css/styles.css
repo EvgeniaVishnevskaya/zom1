@@ -99,6 +99,13 @@ body{
   width: 365px;
  height: 351px;
 }
+#block1{
+  position: fixed;
+  z-index: 4;
+
+  width: 365px;
+ height: 351px;
+}
 meta{
   display: none;
 }
