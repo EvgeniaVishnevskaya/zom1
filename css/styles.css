@@ -18,7 +18,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  margin-top: -100vh;
+  margin-top: -86vh;
 
 }
 .zomb{
@@ -115,21 +115,46 @@ img:hover + img{
 #lil{
   opacity: 0;
 }
+#dontthink2{
+  opacity: 0;
+}
+#dontthink3{
+  opacity: 0;
+}
+#kek2{
+  opacity: 0;
+}
+#stairs2{
+  opacity: 0;
+}
+#lil2{
+  opacity: 0;
+}
 #eye{
   opacity: 0;
 
 }
-#eye1{
-  display: none;
-  height: 0;
-  width: 0;
-}
+
 .mob{
   opacity: 0;
   margin-top: -28vh;
 
 }
+#men{
+  opacity: 0;
+}
+#men2{
+  opacity: 0;
+}
 #eye2{
+  opacity: 0;
+
+}
+#eye3{
+  opacity: 0;
+
+}
+#eye4{
   opacity: 0;
 
 }
@@ -137,26 +162,26 @@ img:hover + img{
   .mob{
     margin-top: -44vh;
   }
+  .text{
+    margin-top: -73vh;
+
+  }
 }
 
 @media screen and (max-width: 1440px){
   .mob{
-    margin-top: -44vh;
+    margin-top: -60vh;
+  }
+  .text{
+    margin-top: -73vh;
+
   }
 }
 
 @media screen and (max-width: 1366px) {
-  .tv{
 
-    margin-left: -3vw;
-  }
-  .hov{
-
-    margin-left: -3vw;
-  }
-  .text{
-
-    margin-left: -3vw;
+  .mob{
+    margin-top: -60vh;
   }
   .yellow{
 
@@ -259,7 +284,7 @@ img:hover + img{
     justify-content: center;
     width: 100vw;
     align-items: center;
-    margin-top: 137vh;
+    margin-top: 9vh;
 
   }
   .hov{
@@ -306,7 +331,7 @@ img:hover + img{
   }
   .mob{
 
-    margin-top: 192vh;
+    margin-top: 35vh;
 
   }
   .text{
@@ -348,7 +373,7 @@ img:hover + img{
   }
   .mob{
 
-    margin-top: 250vh;
+    margin-top: 91vh;
 
   }
   .blue{
@@ -369,7 +394,7 @@ img:hover + img{
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
 
   .line:first-child{
     margin-top: 274vh;
@@ -394,5 +419,13 @@ img:hover + img{
     font-size: 50px;
 
   }
+  .mob{
+    margin-top: 85vh;
+  }
 
+}
+@media screen and (max-width: 320px){
+  .mob{
+    margin-top: 115vh;
+  }
 }

@@ -41,3 +41,37 @@ img{
     margin-top: -30vh;
   }
 }
+@media screen and (max-width: 1280px){
+  #left{
+    margin-left: -5.5vw;
+    margin-top: -2vh;
+  }
+  #right{
+    margin-left: -10vw;
+    margin-top: -35vh;
+  }
+}
+@media screen and (max-width: 1024px){
+  #left{
+    margin-left: 8.5vw;
+    margin-top: 76vh;
+  }
+  #right{
+    margin-left: 3vw;
+    margin-top: 57vh;
+  }
+}
+@media screen and (max-width: 768px){
+  #left{
+    width: 80vw;
+    height: 77vw;
+    margin-left: 9vw;
+    margin-top: 56vh;
+  }
+  #right{
+    width: 100vw;
+    height: 100vw;
+    margin-left: 2vw;
+    margin-top: 43vh;
+  }
+}
