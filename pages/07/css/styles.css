@@ -74,6 +74,9 @@ body{
   }
 }
 @media screen and (max-width: 768px){
+  .head img{
+    height: 8vh;
+  }
   #left{
     width: 80vw;
     height: 77vw;

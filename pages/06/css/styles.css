@@ -90,6 +90,11 @@ body{
   }
 }
 @media screen and (max-width: 430px) {
+  .head img{
+    height: 8vh;
+    margin-top: -8vh;
+    margin-left: -6vw;
+  }
   .eye{
     width: 160px;
     height: 160px;

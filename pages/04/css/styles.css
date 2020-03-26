@@ -163,7 +163,7 @@ meta{
 
 
   }
-  img{
+  #block{
 
     width: 200px;
    height: 187px;
@@ -172,6 +172,10 @@ meta{
 
 
 @media  screen and (max-width: 600px) {
+  .head img{
+    height: 8vh;
+
+  }
   .text{
 
     margin-bottom: 50px;
@@ -189,7 +193,7 @@ meta{
 
 
   }
-  img{
+  #block{
 
     width: 200px;
    height: 187px;
