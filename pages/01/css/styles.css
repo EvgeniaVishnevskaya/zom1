@@ -9,6 +9,16 @@ body{
   width: 100vw;
   height: 100vh;
 }
+.head{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 85vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+
+  justify-content: space-between;
+}
 main{
   display: flex;
 

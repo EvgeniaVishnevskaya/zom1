@@ -9,18 +9,30 @@ body{
   display: flex;
 
 }
+.head{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 85vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+
+
+  justify-content: space-between;
+}
 #left{
   margin-left: 20vw;
   margin-top: 19vh;
+  position: absolute;
+
 }
 #right{
   margin-left: 17vw;
   margin-top: -5vh;
-}
-img{
   position: absolute;
 
 }
+
 @media screen and (max-width: 1680px){
   #left{
     margin-left: 20.5vw;

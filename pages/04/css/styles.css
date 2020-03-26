@@ -9,6 +9,17 @@ body{
 
 
 }
+.head{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 85vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+
+
+  justify-content: space-between;
+}
 .fon{
   display: flex;
   justify-content: space-between;
@@ -81,7 +92,7 @@ body{
   color: #FFFFFF;
   margin-top: -4vh;
 }
-img{
+#block{
   position: fixed;
   z-index: 4;
 

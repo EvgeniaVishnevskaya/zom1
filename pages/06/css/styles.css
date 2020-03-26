@@ -5,6 +5,17 @@ body{
   height: 100vh;
   background-color: #FF0000;
 }
+.head{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 85vw;
+  margin-left: 5vw;
+  margin-top: -35vh;
+
+
+  justify-content: space-between;
+}
 .eye{
   border-radius: 100%;
   background-color: #000000;
